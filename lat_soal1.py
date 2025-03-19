@@ -1,22 +1,26 @@
 
-# a = int(input("Masukkan angka pertama: "))
-# o = input("Masukkan operator: ")
-# b = int(input("Masukkan angka kedua: "))
+a = int(input("Masukkan angka pertama: "))
+o = input("Masukkan operator: ")
+b = int(input("Masukkan angka kedua: "))
 
-# if o == "+":
-#     hasil = a + b
-# elif o == "-":
-#     hasil = a - b
-# elif o == "*":
-#     hasil = a * b
-# elif o == "/":
-#     hasil = a / b
-# elif o == "//":
-#     hasil = a // b
-# elif o == "**":
-#     hasil = a ** b
-# elif o == "%":
-#     hasil = a % b
+hasil = None
 
-# print("Hasil = " + str(hasil))
+if o == "+":
+    hasil = a + b
+elif o == "-":
+    hasil = a - b
+elif o == "*":
+    hasil = a * b
+elif o == "/":
+    hasil = a / b
+elif o == "//":
+    hasil = a // b
+elif o == "**":
+    hasil = a ** b
+elif o == "%":
+    hasil = a % b
 
+if hasil == None:
+    print("Operator yang dimasukkan salah")
+else:
+    print("Hasil = " + str(hasil))
