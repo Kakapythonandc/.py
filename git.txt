@@ -1,0 +1,9 @@
+
+# Tambahkan file baru
+git add . -v
+
+# Untuk simpan perubahan
+git commit -asm "update"
+
+# Untuk upload
+git push -vf
